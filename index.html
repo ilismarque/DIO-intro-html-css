@@ -1,30 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 
 <head>
    <meta charset="utf-8">
+   <link rel="stylesheet" href="style.css">
    <title>Intro HTML e CSS</title>
 </head>
 
 <body>
 
-   <head>
-      <img src="download.jpg" alt="Shadow Island icon">
-      <h1>Ilismarque</h1>
-   </head>
+   <header>
+      <img src="img/photo.jpg" alt="minha foto" class="photo">
+      <h1 id="title">Ilismarque</h1>
+   </header>
    <section>
       <header>
-         <h2>Posts</h2>
+         <h2 class="subtitle">Posts</h2>
       </header>
-      <article>
+      <article class="post">
          <header>
-            <h3>
+            <h3 class="post_title">
                Post #1
             </h3>
-            <p>
+            <img src="img/html-code.jpg" alt="html code" class="post_img">
+            <p class="post_content">
                Lorem ipsum, <a href="https://www.google.com.br" target="_blank">link</a> dolor sit amet consectetur
                adipisicing
-               elit. <a href="mailto:ilismarque@gmail.com">Email</a> Dolor reprehenderit illum consequatur incidunt id,
+               elit.Dolor reprehenderit illum consequatur incidunt id,
                nostrum tempore quibusdam hic eos sed porro
                officiis adipisci repellat inventore excepturi ullam natus molestiae possimus?
                Ipsa quas, unde autem dolorem tempore in. Mollitia nisi possimus quisquam a voluptatem consequuntur dicta
@@ -45,12 +47,17 @@
       </article>
    </section>
    <footer>
-      <ul>
-         <li><a href="mailto:ilismarque@gmail.com">ilismarque@gmail.com</a></li>
-         <li>
+      <h2 class="subtitle">Contato</h2>
+      <ul class="contact_list">
+         <li class="email_contact">
+            <a href="mailto:ilismarque@gmail.com">ilismarque@gmail.com </a>
+         </li>
+         <li class="linkedin_contact">
             <a href="https://www.linkedin.com/in/ilismarque/" target="_black">LinkedIn</a>
          </li>
-         <li><a href="https://github.com/ilismarque" target="_black">GitHub</a></li>
+         <li class="github_contact">
+            <a href="https://github.com/ilismarque" target="_black">GitHub</a>
+         </li>
       </ul>
    </footer>
 </body>
